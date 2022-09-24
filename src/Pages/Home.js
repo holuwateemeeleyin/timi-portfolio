@@ -3,11 +3,13 @@ import './Home.css'
 import { MdMarkEmailUnread } from 'react-icons/md'
 import { FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
 import { AiFillGithub } from 'react-icons/ai'
+import HomePic from '../Assets/pic.png'
+
 export default function Home() {
   return (
     <div className='home-container'>
       <div className='avatar'>
-        Avatar
+        <img src={HomePic} alt='Timi Samuel'/>
       </div>
       <div className='profile'>
         <h2 className='margin profile-name'>

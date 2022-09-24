@@ -5,10 +5,10 @@
     padding: 0.8rem;
 }
 .header-title{
-    font-size: 1.5rem;
-    color: #1f4700;
-    /* font-weight: 600; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #b80018fd;
+    font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
 }
 .close-nav {
     margin: 1rem 0 0.5rem 0.7rem;

@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <div className='header-mobile'>
         <div className='sidebar'>
-          <HiOutlineMenuAlt2 size={22}
+          <HiOutlineMenuAlt2 size={28}
             onClick={()=> setShowNav(true)}
           />
         </div>
@@ -21,7 +21,7 @@ export default function Header() {
           onHideNav={()=> onHideNav()}
         />
         <div className='header-title'>
-          DG
+          Portfolio.
         </div>
     </div>
   )

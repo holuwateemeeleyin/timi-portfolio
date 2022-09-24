@@ -6,25 +6,23 @@
     align-items: center;
 }
 .avatar{
-    /* margin-top: 3rem; */
-    margin-bottom: 2rem;
-    background-color: #56d800;
+    margin-bottom: 3rem;
+    background-color: #fc7e2a;
     width: 9rem;
     height: 9rem;
     border-radius: 6rem;
-    /* padding: 6rem; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .profile{
-    color: #666666;
+    color: #464545;
+    font-weight: lighter;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* font-family:'Raleway', sans-serif;; */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
     
     /* font-size: 1rem; */
 }
