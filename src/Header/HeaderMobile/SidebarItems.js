@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { MdMarkEmailUnread } from 'react-icons/md'
+import { FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
+import { AiFillGithub } from 'react-icons/ai'
 
 export default function SidebarItems() {
     const items = [
@@ -34,8 +37,14 @@ export default function SidebarItems() {
         ))
     )
   return (
-    <div>
+    <div className='sidebarItems-container'>
       {showItems()}
+      <div className='social'>
+        <MdMarkEmailUnread color='#fff'/>
+          <FaTwitterSquare color='#fff'/>
+          <AiFillGithub color='#fff'/>
+          <FaLinkedin color='#fff'/>
+      </div>
     </div>
   )
 }
