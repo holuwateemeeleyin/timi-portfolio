@@ -10,7 +10,7 @@ export default function SideBar({ showNav, onHideNav }) {
         onHideNav={onHideNav}
         navStyle={{
             background:'#242',
-            maxWidth:'250px'
+            maxWidth:'300px'
         }}
     >
         <div className='close-nav'>
