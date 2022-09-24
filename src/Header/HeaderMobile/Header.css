@@ -1,0 +1,28 @@
+
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+}
+.header-title{
+    font-size: 1.5rem;
+    color: #1f4700;
+    /* font-weight: 600; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.close-nav {
+    margin: 1rem 0 0.5rem 0.7rem;
+}
+
+.navItem{
+    display: flex;
+    /* height: 100; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
