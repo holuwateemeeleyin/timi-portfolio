@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className='home-container'>
       <div className='avatar'>
-        <img src={HomePic} alt='Timi Samuel'/>
+        <img src={HomePic} alt='Timi Samuel'  width='256px'/>
       </div>
       <div className='profile'>
         <h2 className='margin profile-name'>
