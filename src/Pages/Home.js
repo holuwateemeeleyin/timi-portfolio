@@ -27,10 +27,10 @@ export default function Home() {
           Currently, I'm opened to Work
         </div>
         <div className='profile-handle'>
-          <MdMarkEmailUnread color='#f01e2c'/>
-          <FaTwitterSquare color='#1DA1F2'/>
-          <AiFillGithub/>
-          <FaLinkedin color='#1DA1F2'/>
+          <a href = "mailto: abegundeosamuel@gmail.com"><MdMarkEmailUnread color='#f01e2c'/></a>
+          <a href ="https://twitter.com/degreenguy"><FaTwitterSquare color='#1DA1F2'/></a>
+          <a href='https://github.com/holuwateemeeleyin'><AiFillGithub color="#223150"/></a>
+          <a href='https://www.linkedin.com/in/oluwatimileyin/'><FaLinkedin color='#1DA1F2'/></a>
         </div>
       </div>
     </div>
