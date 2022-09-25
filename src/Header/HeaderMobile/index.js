@@ -21,7 +21,7 @@ export default function Header() {
           onHideNav={()=> onHideNav()}
         />
         <div className='header-title'>
-          Portfolio.
+          Timi.
         </div>
     </div>
   )
