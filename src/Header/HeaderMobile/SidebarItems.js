@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { MdMarkEmailUnread } from 'react-icons/md'
 import { FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
 import { AiFillGithub } from 'react-icons/ai'
+import Resume from '../../Assets/timisamuel.pdf'
 
 export default function SidebarItems({ onHideNav }) {
     const items = [
@@ -19,7 +20,7 @@ export default function SidebarItems({ onHideNav }) {
         {
             type: 'navItem',
             text: 'Resume',
-            link: '/resume',
+            link: Resume,
         },
         {
             type: 'navItem',
