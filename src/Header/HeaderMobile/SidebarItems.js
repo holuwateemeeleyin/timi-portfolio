@@ -31,9 +31,9 @@ export default function SidebarItems({ onHideNav }) {
     const showItems = () => (
         items.map(item => (
             <div key={item.link} className={item.type}>
-                <Link to={item.link} onClick={onHideNav}>
+                <a href={item.link} onClick={onHideNav}>
                     {item.text}
-                </Link>
+                </a>
             </div>
         ))
     )
