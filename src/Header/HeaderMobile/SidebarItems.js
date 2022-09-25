@@ -4,7 +4,7 @@ import { MdMarkEmailUnread } from 'react-icons/md'
 import { FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
 import { AiFillGithub } from 'react-icons/ai'
 
-export default function SidebarItems() {
+export default function SidebarItems({onHideNav}) {
     const items = [
         {
             type: 'navItem',
@@ -30,7 +30,7 @@ export default function SidebarItems() {
     const showItems = ()=> (
         items.map(item => (
             <div key={item.link} className={item.type}>
-                <Link to={item.link}>
+                <Link to={item.link} onClick={onHideNav}>
                     {item.text}
                 </Link>
             </div>
