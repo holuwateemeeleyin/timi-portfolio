@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Layout from './Layout'
 import Home from './Pages/Home'
+import Projects from './Pages/Projects'
 
 function App() {
   
@@ -15,15 +16,15 @@ function App() {
     return()=> clearTimeout(timer)
   }, [])
 
-  // if (loading){
-  //   return <div className='loading'></div>
-  // }
+  if (loading){
+    return <div className='loading'></div>
+  }
   return (
     <Layout className='app'>
       <Routes>
-        <Route
-          exact path='/' element={<Home/>}
+        <Route path='/' element={<Home/>}
         />
+        <Route exact path='/projects' element={<Projects/>} />
       </Routes>
     </Layout>
   );
