@@ -20,7 +20,7 @@ export default function SideBar({ showNav, onHideNav }) {
                 onClick={onHideNav}
                 />
         </div>
-      <SidebarItems/>
+      <SidebarItems onHideNav={onHideNav}/>
     </SideNav>
   )
 }
