@@ -4,7 +4,7 @@ import { MdMarkEmailUnread } from 'react-icons/md'
 import { FaTwitterSquare, FaLinkedin } from 'react-icons/fa'
 import { AiFillGithub } from 'react-icons/ai'
 
-export default function SidebarItems({onHideNav}) {
+export default function SidebarItems({ onHideNav }) {
     const items = [
         {
             type: 'navItem',
@@ -27,7 +27,7 @@ export default function SidebarItems({onHideNav}) {
             link: '/contact',
         },
     ]
-    const showItems = ()=> (
+    const showItems = () => (
         items.map(item => (
             <div key={item.link} className={item.type}>
                 <Link to={item.link} onClick={onHideNav}>
@@ -36,15 +36,15 @@ export default function SidebarItems({onHideNav}) {
             </div>
         ))
     )
-  return (
-    <div className='sidebarItems-container'>
-      {showItems()}
-      <div className='social'>
-        <MdMarkEmailUnread color='#fff'/>
-          <FaTwitterSquare color='#fff'/>
-          <AiFillGithub color='#fff'/>
-          <FaLinkedin color='#fff'/>
-      </div>
-    </div>
-  )
+    return (
+        <div className='sidebarItems-container'>
+            {showItems()}
+            <div className='social'>
+                <a href="mailto: abegundeosamuel@gmail.com"><MdMarkEmailUnread color='#fff' /></a>
+                <a href="https://twitter.com/degreenguy"><FaTwitterSquare color='#fff' /></a>
+                <a href='https://github.com/holuwateemeeleyin'><AiFillGithub color="#fff" /></a>
+                <a href='https://www.linkedin.com/in/oluwatimileyin/'><FaLinkedin color='#fff' /></a>
+            </div>
+        </div>
+    )
 }
